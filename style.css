@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: "poppins";
+}
+body {
+  background-color: rgb(242, 202, 141);
+}
+/*====================================================================
+          HERO HEADING AND NAVBAR SECTION START
+===================================================================*/
+.hero-heading-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 9px 9px 100px rgb(236, 236, 193);
+}
+.hero-logo {
+  font-weight: 800;
+  font-size: 70px;
+  font-family: "poppins";
+  position: relative;
+  left: 30px;
+}
+
+.hero-navbar ul li {
+  display: inline;
+  flex-direction: row;
+  color: white;
+  position: relative;
+  right: 20px;
+}
+.hero-navbar ul li a {
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+  margin-right: 40px;
+  transition: 0.3s ease-in-out;
+}
+#hero-home-btn {
+  background-color: rgb(247, 227, 177);
+  border-radius: 30px;
+  margin-right: 20px;
+  padding-left: 34px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.hero-navbar ul li a:hover {
+  color: white;
+  transition: 0.3s ease-in-out;
+  background-color: rgb(247, 227, 177);
+  padding-top: 40px;
+  padding-bottom: 8px;
+}
+/*====================================================================
+          HERO HEADING AND NAVBAR SECTION END
+===================================================================*/
+
+/*======================================================================
+                 HERO MAIN CONTENT START
+======================================================================*/
+.hero-main-content {
+  text-align: center;
+}
+.hero-logo-png {
+  position: relative;
+  filter: drop-shadow(1px 20px 10px beige), opacity(1px);
+
+}
+.hero-products{
+filter: drop-shadow(1px 1px 10px black);
+  position: absolute;
+  left: 480px;
+  top:290px;
+ display: block;
+ justify-content: center;
+ align-items: center;
+}
