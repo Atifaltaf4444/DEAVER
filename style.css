@@ -200,7 +200,8 @@ body {
   }
   .hero-text {
     position: absolute;
-    font-size: 85px;
+    right:px;
+    font-size: 75px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
     font-style: italic;
