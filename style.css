@@ -198,4 +198,12 @@ body {
   .hero-heading-container {
     padding-bottom: 10px;
   }
+  .hero-text {
+    position: absolute;
+    font-size: 85px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+  }
 }
